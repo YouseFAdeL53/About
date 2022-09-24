@@ -103,6 +103,84 @@ h2 {
   margin: 30px auto;
 }
 
+
+
+/* Start Tringle */
+
+.tringle div:first-child {
+  border-width: 100px;
+  border-style: solid;
+  position: absolute;
+  border-color: transparent transparent transparent rgb(217 216 216 / 42%);
+  right: 0;
+  z-index: -1;
+}
+
+@media(max-width:992px) {
+  .tringle div:first-child {
+    left: 10px;
+  }
+}
+
+@media(max-width:767px) {
+  .tringle div:first-child {
+    top: 0;
+  }
+}
+
+.tringle div:nth-child(2) {
+  border-width: 100px;
+  border-style: solid;
+  position: absolute;
+  border-color: transparent rgb(217 216 216 / 42%) transparent transparent;
+  right: 9%;
+  z-index: -1;
+  top: 21%;
+}
+
+@media(min-width:993px) {
+  .tringle div:nth-child(2) {
+    right: 9% !important;
+    top: 21% !important;
+  }
+}
+
+@media(min-width:768px) {
+  .tringle div:nth-child(2) {
+    right: 88%;
+    top: 11%;
+  }
+}
+
+@media(max-width:767px) {
+  .tringle div:nth-child(2) {
+    right: 0;
+    top: 0;
+  }
+}
+
+.tringle div:nth-child(3) {
+  border-width: 100px;
+  border-style: solid;
+  position: absolute;
+  border-color: transparent transparent transparent rgb(217 216 216 / 42%);
+  left: 35px;
+  bottom: 0;
+  z-index: -1;
+}
+
+.tringle div:nth-child(4) {
+  border-width: 100px;
+  border-style: solid;
+  position: absolute;
+  border-color: transparent rgb(217 216 216 / 42%) transparent transparent;
+  left: -30px;
+  z-index: -1;
+  bottom: -103px;
+}
+
+/* end Tringle */
+
 /* End Main-tittle */
 
 
